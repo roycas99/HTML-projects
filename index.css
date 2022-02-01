@@ -1,0 +1,14 @@
+body {
+    background-color: green;
+    text-align: center;
+
+}
+
+form {
+    color: white;
+    font-size: larger;
+    font-style: normal;
+}
+input, textarea {
+    margin: 1em 3em;
+}

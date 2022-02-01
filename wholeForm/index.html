@@ -1,20 +1,32 @@
-<form action="/example/submit.html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <form action="/example/submit.html">
 
-Name: <input type="text" name="name" style="margin-bottom: 8px; " id="name1"><br>
-Unit: <input type="number" name="number"> <br>
-Building: <select name="building" id="building"> 
-
-    <option value="31A">A</option>
-    <option value="31B">B</option>
-    <option value="31C">C</option>
-</select> <br>
-<textarea name="text" id="text" cols="30" rows="10"></textarea> <br>
-
-<p><input type="file" id="fil">(file)</p>
-
-<button type="submit" style="margin-top: 5px;">Log in </button>
-<button disabled>Off</button> 
-
-
-</form>
-<script src="./index.js"></script>
+        Name: <input type="text" name="name" id="name1"><br>
+        Unit: <input type="number" name="number"> <br>
+        Building: <select name="building" id="building"> 
+        
+            <option value="31A">A</option>
+            <option value="31B">B</option>
+            <option value="31C">C</option>
+        </select> <br>
+        <textarea name="text" id="text" cols="30" rows="10"></textarea> <br>
+        
+        <p><input type="file" id="fil">(file)</p>
+        
+        <button type="submit" >Log in </button>
+        <button disabled>Off</button> 
+        
+        
+        </form>
+        <script src="./index.js"></script> 
+</body>
+</html>
